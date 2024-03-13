@@ -12,7 +12,6 @@
     ],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
