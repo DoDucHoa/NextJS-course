@@ -23,7 +23,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node", "react", "css-modules"]
   },
   "exclude": ["node_modules"],
   "include": [
