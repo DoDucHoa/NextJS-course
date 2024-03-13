@@ -2,7 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
-    "jsx": "react"
+    "jsx": "react-jsx",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
