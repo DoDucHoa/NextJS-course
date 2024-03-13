@@ -54,5 +54,5 @@ next-env.d.ts
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
-1
+# dist
+/dist
