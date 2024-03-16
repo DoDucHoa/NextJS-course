@@ -1,11 +1,17 @@
 {
-  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "noEmit": false,
     "jsx": "react-jsx",
+    "noEmit": false,
     "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedParameters": false
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "./tsconfig.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ]
 }
